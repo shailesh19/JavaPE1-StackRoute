@@ -2,7 +2,8 @@ package com.stackroute.pe1;
 
 import java.util.Scanner;
 
-public class VowelConsonantChecker {
+public class VowelConsonantChecker
+{
     public static void main (String[] args )
     {
 
@@ -15,8 +16,10 @@ public class VowelConsonantChecker {
             char d;
             c = word.charAt(i);
             d = Character.toUpperCase(c);
-            if (d >='A' && d<= 'Z') {
-                switch (d) {
+            if (d >='A' && d<= 'Z')
+            {
+                switch (d)
+                {
                     case 'A':
                     case 'E':
                     case 'I':
@@ -32,9 +35,6 @@ public class VowelConsonantChecker {
                 {
                     System.out.println("Not an Alphabet");
                 }
-
-
-
         }
     }
 }

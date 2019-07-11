@@ -2,7 +2,8 @@ package com.stackroute.pe1;
 
 import java.util.Scanner;
 
-public class TomAndJerry {
+public class TomAndJerry
+{
     public static void main(String[] args)
     {
 
