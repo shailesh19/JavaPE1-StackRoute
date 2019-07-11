@@ -11,7 +11,8 @@ public class palindrome {
 
         while (num != 0) {
             remainder = num % 10;
-            if (remainder % 2 == 0) {
+            if (remainder % 2 == 0)
+            {
                 sum = sum + remainder;
             }
             reversedNumber = reversedNumber * 10 + remainder;
