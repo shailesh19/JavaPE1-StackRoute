@@ -2,8 +2,10 @@ package com.stackroute.pe1;
 
 import java.util.Scanner;
 
-public class palindrome {
-    public static void main(String[] args) {
+public class palindrome
+{
+    public static void main(String[] args)
+    {
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();
         int reversedNumber = 0, remainder, originalNumber, sum = 0;
