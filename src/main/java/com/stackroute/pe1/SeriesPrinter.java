@@ -8,7 +8,8 @@ public class SeriesPrinter
     {
         int index = 0;
         int size = 0;
-        for (int i = 1; i <= inputNumber; i++) {
+        for (int i = 1; i <= inputNumber; i++)
+        {
             size += i;
         }
         int[] array = new int[size];
