@@ -2,15 +2,13 @@ package com.stackroute.pe1;
 
 import java.util.Scanner;
 
-public class palindrome
+public class Palindrome
 {
-    public static void main(String[] args)
+    public String palindromeChecker(int num)
     {
-        Scanner input = new Scanner(System.in);
-        int num = input.nextInt();
         int reversedNumber = 0, remainder, originalNumber, sum = 0;
         originalNumber = num;
-
+        String variableresult = "";
         while (num != 0)
         {
             remainder = num % 10;
@@ -24,11 +22,12 @@ public class palindrome
         if (reversedNumber == originalNumber)
         {
             if (sum > 25)
-                System.out.println(reversedNumber + " is palindrome and sum of even numbers is greater than 25");
+                variableresult = "Number is Palindrome & sum is greater than 25";
             else
-                System.out.println(reversedNumber + " is palindrome and sum of even numbers is less than 25");
+                variableresult = "Number is Palindrome & sum is less than 25";
         }
         else
-            System.out.println("Number is not Palindrome");
+            variableresult = "Number is not Palindrome";
+        return variableresult;
     }
 }
